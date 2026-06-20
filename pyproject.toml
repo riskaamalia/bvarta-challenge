@@ -1,0 +1,22 @@
+[project]
+name = "bvarta-challenge"
+version = "0.1.0"
+description = "Bvarta Coding Challenge For Riska Amalia"
+readme = "README.md"
+requires-python = ">=3.12.3"
+dependencies = [
+    "pyspark>=4.1.1",
+    "pyyaml>=6.0.3",
+    "pandas>=2.0.0",
+    "pyarrow>=14.0.0",
+    "matplotlib>=3.8.0",
+    "jupyter>=1.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.setuptools]
+packages = ["job"]
