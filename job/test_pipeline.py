@@ -8,7 +8,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
 from pyspark.sql.types import StructType, StructField, StringType, DoubleType, TimestampType
 
-from pipeline import (
+from .pipeline import (
     RAW_EVENT_SCHEMA,
     USER_SCHEMA,
     build_bronze,
